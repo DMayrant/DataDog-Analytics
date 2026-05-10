@@ -1,0 +1,32 @@
+datadog:
+  site: us5.datadoghq.com
+
+  apiKeyExistingSecret: datadog-secret
+
+  logs:
+    enabled: true
+    containerCollectAll: true
+
+  apm:
+    enabled: true
+
+  processAgent:
+    enabled: false
+
+  orchestratorExplorer:
+    enabled: true
+
+  kubelet:
+    tlsVerify: false
+    host:
+      valueFrom:
+        fieldRef:
+          fieldPath: status.hostIP
+
+clusterAgent:
+  enabled: true
+
+kubeStateMetricsEnabled: true
+
+systemProbe:
+  enabled: false
