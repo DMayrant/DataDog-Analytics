@@ -1,8 +1,9 @@
 # DataDog Observability for Kubernetes 🔎
 
-This infrastructure deploys a nginx application and exposes it to a cluster IP service to connect to nginx application. A test pod was also deployed as tool to test internal service discovery and DNS resolution within the kubernetes cluster. 
+Deployed an NGINX application on Kubernetes with internal ClusterIP service exposure, validating in-cluster service discovery and DNS resolution through a dedicated test pod for connectivity and troubleshooting workflows.
 
-For Security Information Event Management (SIEM) and observability DataDog helm charts were installed in the datadog namespace for cluster monitoring. Datadog is cloud based security platform that that SRE, DevSecOps, and platform engineering teams use to monitor logs, metrics and traces in realtime
+Implemented observability and SIEM-focused monitoring using Datadog
+ Helm chart deployments within a dedicated Kubernetes namespace, enabling centralized real-time monitoring of cluster logs, metrics, and traces to improve operational visibility, incident detection, and platform reliability for cloud infrastructure environments.
 
 # Prerequisites 📝
 - Kubernetes cluster
