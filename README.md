@@ -10,4 +10,6 @@ Implemented observability and SIEM-focused monitoring using Datadog
 - Kubernetes service
 - Datadog helm chart installed 
 - Test Pod 
-- daemonsets 
+- daemonsets
+
+[image alt](https://github.com/DMayrant/DataDog-Analytics/blob/main/Screenshot%202569-05-20%20at%2001.39.25.png?raw=true)
