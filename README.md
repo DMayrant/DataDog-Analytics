@@ -12,4 +12,4 @@ Implemented observability and SIEM-focused monitoring using Datadog
 - Test Pod 
 - daemonsets
 
-[image alt](https://github.com/DMayrant/DataDog-Analytics/blob/main/Screenshot%202569-05-20%20at%2001.39.25.png?raw=true)
+![image alt](https://github.com/DMayrant/DataDog-Analytics/blob/main/Screenshot%202569-05-20%20at%2001.39.25.png?raw=true)
